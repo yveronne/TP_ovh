@@ -15,7 +15,7 @@ img
 	margin-left: 70px;
 }
 
-#image
+#entete div
 {
 	align-content: center;
 }
@@ -26,6 +26,7 @@ img
 	padding-top: 30px;
 
 }
+
 
 #saisie
 {
@@ -64,7 +65,7 @@ img
 	height: 25px;
 }
 
-.labelinput
+#saisie > label
 {
 	color: #5B5B5B;
 	font-weight: bold;
@@ -76,7 +77,10 @@ img
 	color: #5B5B5B;
 }
 
-#remembercheck
+span:not(#rememberlabel)
 {
 	padding-left: 40px;
 }
+
+
+
