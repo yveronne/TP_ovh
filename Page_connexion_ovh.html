@@ -9,20 +9,21 @@
 
 	<div id="connexion">
 		<div id="entete">
-			<div id="image"><img src="logo.png" alt="logo"></div>
+			<div><img src="logo.png" alt="logo"></div>
 			<h2>Se connecter</h2><br>
 		</div>
 		<form method="post">
 			<div id="saisie">
 			
-				<label for="username" class="labelinput">Nom d'utilisateur</label><br>
+				<label for="username">Nom d'utilisateur</label><br>
 				<input type="text" name="username" class="inputtext"><br>
-				<label for="password" class="labelinput">Mot de passe</label><br>
+				<label for="password">Mot de passe</label><br>
 				<input type="password" name="password" class="inputtext"><br>
-				<span id="rememberlabel"><label for="remember">Remember me</label></span><span id="remembercheck"><input type="checkbox" name="remember" value="remember"></span>
+				<span id="rememberlabel"><label for="remember">Remember me</label></span>
+				<span><input type="checkbox" name="remember" value="remember"></span>
 			</div>
 			<div id="bouton">
-				<input type="submit" value="Se connecter" id="seconnecter">
+				<input type="submit" value="Se connecter" id="seconnecter" onclick="alert('Hello World!');">
 			</div>
 		</form>		
 	</div>
